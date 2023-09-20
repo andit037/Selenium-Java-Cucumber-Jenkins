@@ -7,5 +7,5 @@ Feature: Test Login Functionality
 
     Examples: 
       | username | password             | message                        |
-      | tomsmith | SuperSecretPassword	| You logged into a secure area! |
+      | tomsmith | SuperSecretPassword!	| You logged into a secure area! |
       | testA    | testB                | Your username is invalid!      |
