@@ -13,7 +13,7 @@ public class DriverManager {
 		if(browserName.equals("chrome")) {
 			ChromeOptions opt = new  ChromeOptions();
 			opt.addArguments("headless");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(opt);
 		}else if (browserName.equals("firefox")) {
 			driver = new FirefoxDriver();
 		}
