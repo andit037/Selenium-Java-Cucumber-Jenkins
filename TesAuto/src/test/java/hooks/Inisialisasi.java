@@ -18,6 +18,7 @@ public class Inisialisasi {
 		driver = DriverManager.getDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
+		
 	}
 	
 	@After
